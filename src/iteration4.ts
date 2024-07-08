@@ -1,5 +1,5 @@
 //
-// Iteration 4
+// Iteration 4 | Type aliases
 //
 
 

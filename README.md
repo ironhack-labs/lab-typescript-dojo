@@ -25,7 +25,6 @@
 
 ![ts-dojo](https://github.com/ironhack-labs/lab-typescript-dojo/assets/38411763/d9c7490e-7ef0-4435-b014-0be98bbd1539)
 
-
 <!-- Image generated with canva.com Magic Media -->
 
 
@@ -45,7 +44,7 @@ To begin, follow these steps:
 - Clone this repo
 - Open the project folder in VSCode
 
-To help you get started quickly, we've already configured TypeScript for the project. You'll find a `tsconfig.json` file with some settings. One of these settings is `"outDir": "./dist"`, which tells TypeScript to place the compiled JavaScript files in the `dist` directory.
+To help you get started quickly, we've already configured TypeScript for the project. You'll find a `tsconfig.json` file with some settings (you don't need to modify this file). One of these settings is `"outDir": "./dist"`, which tells TypeScript to place the compiled JavaScript files in the `dist` directory.
 
 To start the TypeScript compiler, open a terminal and run this command:
 
@@ -129,7 +128,7 @@ For this lab, we will not have automated testing. However, you can (and you shou
     console.log(result2);
     ```
 
-2. Since we're running `tsc --watch`, a JavaScript file will be generated. To execute your code, open a second terminal and run this command: `node dist/iteration1.js`.
+2. Since we're running `tsc --watch`, a JavaScript file will be generated. To execute your code, open a second terminal and run this command: `node dist/iteration1.js` (you will see the result of your console.log's).
 
 3. Once you've confirmed everything is working, you can delete the code you used for testing.
 
