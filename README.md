@@ -23,7 +23,8 @@
 
 ## Introduction
 
-![ts-dojo](https://github.com/luisjunco/draft-lab-ts-dojo-i/assets/38411763/890992ed-c8ad-4f28-8496-5c940c4657f4)
+![ts-dojo](https://github.com/ironhack-labs/lab-typescript-dojo/assets/38411763/d9c7490e-7ef0-4435-b014-0be98bbd1539)
+
 
 <!-- Image generated with canva.com Magic Media -->
 
