@@ -101,7 +101,7 @@ Once you've solved it or, if you get stuck, check the solution below :point_down
   <summary><b>Solution</b></summary>
 
   ```ts
-    function sayHello(userName: string): string{
+    function sayHello(userName: string): string {
         return `Hello ${userName}, how are you?`;
     }
   ```
@@ -167,7 +167,7 @@ For this iteration, you'll be implementing several functions. Make sure to inclu
   <summary><b>Solution</b></summary>
 
   ```ts
-    function calcMultiplication(a: number, b: number): number{
+    function calcMultiplication(a: number, b: number): number {
         return a * b;
     }
   ```
@@ -350,7 +350,7 @@ Next, we will add some more methods to our class `BankAccount`
         
         // ...
 
-        deposit(amount: number): number | string{
+        deposit(amount: number): number | string {
             if(amount <= 0) {
                 return `Please provide a valid amount`;
             }
@@ -359,7 +359,7 @@ Next, we will add some more methods to our class `BankAccount`
             return this.balance;
         }
 
-        withdraw(amount: number): number | string{
+        withdraw(amount: number): number | string {
             if(amount <= 0) {
                 return `Please provide a valid amount`;
             }
@@ -505,7 +505,7 @@ Declare a type alias `MusicAlbum`, with the following properties:
   To add type annotations to your function parameters, use a union type. Example:
 
   ```ts
-    function getYearsSinceRelease(mediaItem: Book | Movie | MusicAlbum){
+    function getYearsSinceRelease(mediaItem: Book | Movie | MusicAlbum) {
         // ...
     }
   ```
@@ -520,7 +520,7 @@ Declare a type alias `MusicAlbum`, with the following properties:
   <br>
 
   ```ts
-    function getYearsSinceRelease(mediaItem: Book | Movie | MusicAlbum): number{
+    function getYearsSinceRelease(mediaItem: Book | Movie | MusicAlbum): number {
         const currentYear = new Date().getFullYear();
         const difference = currentYear - mediaItem.year;
         return difference;
@@ -653,7 +653,7 @@ The code for this function can be the same that we had. The only difference is t
   <br>
 
   ```ts
-  function getYearsSinceRelease(mediaItem: MediaItem): number{
+  function getYearsSinceRelease(mediaItem: MediaItem): number {
       const currentYear = new Date().getFullYear();
       const difference = currentYear - mediaItem.year;
       return difference;
@@ -663,7 +663,7 @@ The code for this function can be the same that we had. The only difference is t
   This is also completely valid:
 
   ```ts
-  function getYearsSinceRelease(mediaItem: Book | Movie | MusicAlbum): number{ 
+  function getYearsSinceRelease(mediaItem: Book | Movie | MusicAlbum): number { 
     // ...
   }
   ```
