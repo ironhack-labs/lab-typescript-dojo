@@ -36,7 +36,5 @@ console.log(
     year: 2008,
     genres: ["Action", "Crime", "Drama"],
     rating: 9,
-    author: "Christopher Nolan",
-    durationInMinutes: 152,
   })
 );
