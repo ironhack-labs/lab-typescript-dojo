@@ -3,4 +3,5 @@ node_modules
 
 # dist (directory with the compiled JavaScript code)
 dist
+build
 
