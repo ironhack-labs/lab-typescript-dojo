@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "typescript": "^5.8.2"
+  },
+  "name": "lab-typescript-dojo",
+  "version": "1.0.0",
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMatroxa/lab-typescript-dojo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MrMatroxa/lab-typescript-dojo/issues"
+  },
+  "homepage": "https://github.com/MrMatroxa/lab-typescript-dojo#readme"
+}
