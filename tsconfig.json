@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "es2016",
+     "rootDir": "./src",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "moduleDetection": "force",                          /* Control what method is used to detect module-format JS files. */
     "module": "commonjs",                                /* Specify what module code is generated. */
     "outDir": "./dist",                                  /* Specify an output folder for all emitted files. */
