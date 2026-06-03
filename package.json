@@ -1,0 +1,27 @@
+{
+  "name": "lab-typescript-dojo",
+  "version": "1.0.0",
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisafarli06/lab-typescript-dojo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alisafarli06/lab-typescript-dojo/issues"
+  },
+  "homepage": "https://github.com/alisafarli06/lab-typescript-dojo#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "typescript": "^6.0.3"
+  }
+}
