@@ -1,0 +1,30 @@
+{
+  "name": "lab-typescript-dojo",
+  "version": "1.0.0",
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
+  "main": "dist/iteration1.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/iteration1.js",
+    "start:iteration1": "node dist/iteration1.js",
+    "start:iteration2": "node dist/iteration2.js",
+    "start:iteration3": "node dist/iteration3.js",
+    "start:iteration4": "node dist/iteration4.js",
+    "start:iteration5": "node dist/iteration5.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterschmidtit24-jpg/lab-typescript-dojo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterschmidtit24-jpg/lab-typescript-dojo/issues"
+  },
+  "homepage": "https://github.com/peterschmidtit24-jpg/lab-typescript-dojo#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

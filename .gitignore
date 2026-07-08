@@ -1,5 +1,6 @@
 # Dependency directory
 node_modules
+TYPESCRIPT_SETUP.md
 
 # dist (directory with the compiled JavaScript code)
 dist
