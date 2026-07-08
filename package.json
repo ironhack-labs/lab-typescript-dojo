@@ -1,0 +1,10 @@
+{
+  "name": "lab-typescript-dojo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/iteration1.js"
+  }
+}
